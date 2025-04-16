@@ -10,7 +10,7 @@
 # -*- coding: utf-8 -*-
 
 
-class SoftwareEngineer:
+class SoftwareDeveloper:
 
     def __init__(self):
         self.name = "Mateus Martini"
