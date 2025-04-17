@@ -14,7 +14,7 @@ public class SoftwareDeveloper {
     private String role = "Software Developer 👨‍💻";
     private String[] languagesSpoken = {"🇧🇷 PT-BR", "🇺🇸 EN-US"};
 
-    public void introduceYourself() {
+    public void introduceMyself() {
         System.out.println("👋 Olá! Hello!");
         System.out.println("I'm " + name + ", your friendly neighborhood " + role + "!");
         System.out.println("🌍 I can speak: 🇧🇷 PT-BR, 🇺🇸 EN-US");
@@ -22,7 +22,7 @@ public class SoftwareDeveloper {
     }
 
     public static void main(String[] args) {
-        new SoftwareDeveloper().introduceYourself();
+        new SoftwareDeveloper().introduceMyself();
     }
 }
 ```
